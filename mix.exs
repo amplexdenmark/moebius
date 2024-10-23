@@ -34,7 +34,7 @@ defmodule Moebius.Mixfile do
 
   defp deps do
     [
-      {:postgrex, "~> 0.18.0"},
+      {:postgrex, "~> 0.19"},
       {:jason, "~> 1.4.3"},
 
       # Dev & Test

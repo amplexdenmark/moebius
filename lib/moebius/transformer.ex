@@ -27,7 +27,8 @@ defmodule Moebius.Transformer do
   end
 
   def atomize_columns(cols) do
-    for col <- cols, do: String.to_atom(col)
+    #for col <- cols, do: String.to_atom(col)
+    cols
   end
 
   def match_columns_to_row(row, cols), do: List.zip([cols, row])
